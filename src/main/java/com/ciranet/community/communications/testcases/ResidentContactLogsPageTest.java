@@ -28,7 +28,7 @@ public class ResidentContactLogsPageTest extends TestBase
 		// Define the community search keyword
 		String communitySearchKeyword = "Amberwood";
 
-		residentContactLogs.navigate(communitySearchKeyword;
+		residentContactLogs.navigate(communitySearchKeyword);
 		
 	}
 
