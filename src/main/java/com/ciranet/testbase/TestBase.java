@@ -137,7 +137,13 @@ public class TestBase {
 	private void configureChromeOptions(ChromeOptions options) {
 	    if (!Constants.GUI_MODE) {
 	        options.addArguments("--headless=old");
-	        options.addArguments("--window-size=1920,1080");
+	        //options.addArguments("--window-size=1920,1080");
+	        
+	        options.addArguments("--headless", "--disable-gpu", "--window-size=1920,1200");
+	        //WebDriver driver = new ChromeDriver(options);
+
+	        
+	        
 	    }
 	    options.setExperimentalOption("excludeSwitches", new String[] { "enable-automation" });
 	    options.setExperimentalOption("useAutomationExtension", false);
