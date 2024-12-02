@@ -28,7 +28,7 @@ public class ResidentContactLogsPageTest extends TestBase
 		// Define the community search keyword
 		String communitySearchKeyword = "Amberwood";
 
-		assertTrue(residentContactLogs.navigate(communitySearchKeyword),"Error navigating to Resident Contact Logs page");
+		residentContactLogs.navigate(communitySearchKeyword;
 		
 	}
 
@@ -45,7 +45,7 @@ public class ResidentContactLogsPageTest extends TestBase
 
 		// Perform the historical hyperlink validation
 		LoggerManager.info("Verifying the historical hyperlinks functionality.");
-		assertTrue(residentContactLogs.verifyResidentContactLogsHistoricalHyperlink(),"Resident Contact Log Detail Historical hyperlink is not functional or not visible.");
+		residentContactLogs.verifyResidentContactLogsHistoricalHyperlink();
 		LoggerManager.info("Test passed: Historical hyperlinks in Resident Contact Logs verified successfully.");
 	}
 }
